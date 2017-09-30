@@ -71,6 +71,9 @@ According to this table, line players do an average of 14.5 pushups and skill pl
 # Inferential Results
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+Hypothesis: I believe that skill players will do more pushups than line players.
+This hypothesis was correct because the boxplot and numerical table shows that the skill players do a higher number of pushups than the skill players. I thought this would be true originally because the data frame lists the pushups in columns and before I ran any  tests, it looked like the skill players numbers were higher. For example, one skill did 98 pushups and the line player below him did 11 pushups.
+
 
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
