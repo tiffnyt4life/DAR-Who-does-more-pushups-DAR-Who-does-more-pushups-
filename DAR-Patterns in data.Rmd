@@ -1,0 +1,68 @@
+---
+title: "Who does more pushups"
+author: "your name"
+date: "March 8"
+output: html_document
+---
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(tigerstats)
+```
+<!-- We recommend you use git branches -- create a separate branch for each major section i.e. Introduction, Methods, Results, Inferential Results, and Discussion and Conclusions - leave the YAML block untouched until the final merge where you put in your own name !-->
+
+# Introduction
+
+Several years ago some MAT 111 students who were on the footbal team conducted a study of their team-mates.  The results are contained in the data frame `pushups` in the `tigerstats` package.
+
+```{r eval=FALSE}
+data(pushups)
+View(pushups)
+help(pushups)
+```
+
+
+Among other things, the students recorded the type of position a player had on the team (either line or skill), and also the number of push-ups each player could perform in a two-minute period.
+
+Line players are on the offensive or defensive line.  They need to be a certain kind of speed, but they must also be quite big and strong.  Skill players do a lot of runninga and catching:  they are the quarterback, running backs, receivers, etc.
+
+Our Research Question is:
+
+  >Who does more pushups, on average: a line player or a skill player?
+  
+  According to the 1st method, the box plot below, skill players do more pushups than line players.
+
+
+# Methods
+<!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+
+
+
+```{r}
+a <- ggplot(pushups, aes(x = position, y = pushups, col=position))
+a + geom_boxplot()
+```
+
+
+
+
+# Results
+<!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
+
+
+## Graphical Results
+<!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
+
+
+## Numerical Results
+<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+
+# Inferential Results
+<!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+
+
+# Discussion and Conclusion
+<!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
+
