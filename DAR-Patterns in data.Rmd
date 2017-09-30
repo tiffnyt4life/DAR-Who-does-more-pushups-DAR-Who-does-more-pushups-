@@ -21,7 +21,7 @@ data(pushups)
 View(pushups)
 help(pushups)
 ```
-
+The data frame has 3 columns: weight, pushups and postitons.
 
 Among other things, the students recorded the type of position a player had on the team (either line or skill), and also the number of push-ups each player could perform in a two-minute period.
 
@@ -31,7 +31,7 @@ Our Research Question is:
 
   >Who does more pushups, on average: a line player or a skill player?
   
-  According to the 1st method, the box plot below, skill players do more pushups than line players.
+  
 
 
 # Methods
@@ -39,10 +39,9 @@ Our Research Question is:
 
 
 
-```{r}
-a <- ggplot(pushups, aes(x = position, y = pushups, col=position))
-a + geom_boxplot()
-```
+
+
+
 
 
 
