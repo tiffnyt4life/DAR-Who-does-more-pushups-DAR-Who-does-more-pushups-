@@ -44,6 +44,7 @@ I will use a boxplot for the graphical method and R-function favstats to do the 
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
 
+My graphical and numerical results were similar. The boxplot showed that the skill players do an average of 45 pushups, and the line players do an average of 15 pushups and the numerical table showed that line players do an average of 14.5 pushups and skill players do an average of 47.5 pushups.
 
 
 ## Graphical Results
@@ -74,4 +75,4 @@ According to this table, line players do an average of 14.5 pushups and skill pl
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
 
-According to the information in the charts above, skill players do more pushups than line players. They do around 33 more pushups than the line players on average.
+According to the information in the charts above, skill players do more pushups than line players. They do around 30 more pushups than the line players on average.
