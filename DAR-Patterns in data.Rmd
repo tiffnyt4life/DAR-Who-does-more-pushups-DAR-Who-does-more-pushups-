@@ -45,12 +45,19 @@ I will use a boxplot for the graphical method and R-function favstats to do the 
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
 
 
+
 ## Graphical Results
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
 
 
+```{r}
+a <- ggplot(pushups, aes(x=position, y=pushups, col=position))
+a + geom_boxplot()
+```
+
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
 
 
 # Inferential Results
