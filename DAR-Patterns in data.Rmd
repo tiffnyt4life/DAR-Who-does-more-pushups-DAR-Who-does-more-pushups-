@@ -31,19 +31,14 @@ Our Research Question is:
 
   >Who does more pushups, on average: a line player or a skill player?
   
+I see that the data frame has 3 columns: weight, pushups and postitons. I will use this information to answer the question.
   
 
 
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-
-
-
-
-
-
-
+I will use a boxplot for the graphical method and R-function favstats to do the numerical method.
 
 
 # Results
