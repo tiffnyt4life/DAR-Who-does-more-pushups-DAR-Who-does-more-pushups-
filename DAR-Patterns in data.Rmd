@@ -55,9 +55,16 @@ a <- ggplot(pushups, aes(x=position, y=pushups, col=position))
 a + geom_boxplot()
 ```
 
+
+According to this graph, the skill players do an average of 45 pushups, and the line players do an average of 15 pushups.
+
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(pushups~position,data=pushups)
+```
+According to this table, line players do an average of 14.5 pushups and skill players do an average of 47.5 pushups.
 
 
 # Inferential Results
