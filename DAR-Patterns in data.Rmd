@@ -74,3 +74,4 @@ According to this table, line players do an average of 14.5 pushups and skill pl
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
 
+According to the information in the charts above, skill players do more pushups than line players. They do around 33 more pushups than the line players on average.
