@@ -2,7 +2,9 @@
 title: "Who does more pushups"
 author: "your name"
 date: "March 8"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
 
 ```{r include=FALSE}
@@ -73,6 +75,13 @@ According to this table, line players do an average of 14.5 pushups and skill pl
 
 Hypothesis: I believe that skill players will do more pushups than line players.
 This hypothesis was correct because the boxplot and numerical table shows that the skill players do a higher number of pushups than the skill players. I thought this would be true originally because the data frame lists the pushups in columns and before I ran any  tests, it looked like the skill players numbers were higher. For example, one skill did 98 pushups and the line player below him did 11 pushups.
+
+```{r}
+
+t.test(pushups~position, data=pushups)
+
+
+```
 
 
 # Discussion and Conclusion
