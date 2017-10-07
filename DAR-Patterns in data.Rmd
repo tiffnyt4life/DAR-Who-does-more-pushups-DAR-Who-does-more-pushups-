@@ -3,8 +3,8 @@ title: "Who does more pushups"
 author: "your name"
 date: "March 8"
 output:
-  word_document: default
   html_document: default
+  word_document: default
 ---
 
 ```{r include=FALSE}
@@ -82,7 +82,7 @@ t.test(pushups~position, data=pushups)
 
 
 ```
-
+According to the t.test the p-value is so low that there is no way the # of pushups between line and skill players could be close.
 
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
